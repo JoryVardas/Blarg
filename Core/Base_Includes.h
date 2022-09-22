@@ -1,0 +1,45 @@
+//DONE
+#pragma once
+
+#ifndef __BASE_INCLUDES_H__
+#define __BASE_INCLUDES_H__
+
+#define D3D_DEBUG_INFO
+#define _USE_MATH_DEFINES
+//////////////////////////////////
+//	CORE C++ INCLUDES	//
+//////////////////////////////////
+#include <iostream>
+#include <fstream>
+#include <string.h>
+//#include <float.h>
+#include <cmath>
+
+//////////////////////////////////
+//	WINDOWS INCLUDES	//
+//////////////////////////////////
+#include <Windows.h>
+#include <WindowsX.h>
+
+//////////////////////////////////
+//	DIRECTX INCLUDES	//
+//////////////////////////////////
+#include <d3d11.h>
+#include <d3dx11.h>
+#include <D3DX10.h>
+
+//////////////////////////////////
+
+//////////////////////////////////
+//	DIRECTX LIBS		//
+//////////////////////////////////
+#pragma comment (lib, "d3d11.lib")
+#pragma comment (lib, "d3dx11.lib")
+#pragma comment (lib, "d3dx10.lib")
+
+//////////////////////////////////
+//	NAMESPACES TO USE	//
+//////////////////////////////////
+using namespace std;
+
+#endif

@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Core">
+      <UniqueIdentifier>{75d3d4ee-8ad5-4a62-867e-99a2f5ca4620}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI">
+      <UniqueIdentifier>{8b9dd4ff-f636-46e4-8fc4-069864ebf7de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Rendering">
+      <UniqueIdentifier>{4ceac27a-970e-48d4-93cf-a034e477f2d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Modeling">
+      <UniqueIdentifier>{c2a5f2d3-4757-4ea1-9c7f-589ffd5119b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Errors">
+      <UniqueIdentifier>{8b50fe21-2789-499c-8436-458fd7f21a23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\IO">
+      <UniqueIdentifier>{e8e2259e-8788-4dea-8d30-53018663d006}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Modeling\Tools">
+      <UniqueIdentifier>{2fadab70-46a5-415b-a638-e5ffba74790e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Core\Advanced_Pointer_Operations.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Array.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Base_Includes.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Common_Functions.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Conversions.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Coords.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Global_Variables.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\ID.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\ID_Manager.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Reference.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\ReplaceEveryInstanceOf.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\v5CArrayData.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\v5Object.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\v5String.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\IO\File.h">
+      <Filter>Header Files\Core\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\IO\StreamReader.h">
+      <Filter>Header Files\Core\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\IO\StreamWriter.h">
+      <Filter>Header Files\Core\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Errors\ArbitraryFunctionCallError.h">
+      <Filter>Header Files\Core\Errors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Errors\AttemptToCopyFileStream.h">
+      <Filter>Header Files\Core\Errors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Errors\AttemptToDivideByZeroError.h">
+      <Filter>Header Files\Core\Errors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Errors\AttemptToOpenFileStreamUsingDirectory.h">
+      <Filter>Header Files\Core\Errors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Errors\AttemptToReadFromNonexistantFile.h">
+      <Filter>Header Files\Core\Errors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Errors\CharacterArrayNotLargeEnoughForFileRead.h">
+      <Filter>Header Files\Core\Errors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Errors\FailedToRenameMeshError.h">
+      <Filter>Header Files\Core\Errors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Errors\FileStreamReaderFileNonexistant.h">
+      <Filter>Header Files\Core\Errors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Errors\IndexOutOfBounds.h">
+      <Filter>Header Files\Core\Errors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Errors\MemoryAllocationError.h">
+      <Filter>Header Files\Core\Errors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Errors\MemoryDeallocationError.h">
+      <Filter>Header Files\Core\Errors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Errors\NullPoinerError.h">
+      <Filter>Header Files\Core\Errors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Errors\UnknownError.h">
+      <Filter>Header Files\Core\Errors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Errors\v5Error.h">
+      <Filter>Header Files\Core\Errors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Modeling\Tools\Add_Vertex.h">
+      <Filter>Header Files\Modeling\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Modeling\Tools\AverageVertexPosition.h">
+      <Filter>Header Files\Modeling\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Modeling\Tools\Create_Cone.h">
+      <Filter>Header Files\Modeling\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Modeling\Tools\Create_Cube.h">
+      <Filter>Header Files\Modeling\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Modeling\Tools\Create_Sphere.h">
+      <Filter>Header Files\Modeling\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Modeling\Tools\Create_Torus.h">
+      <Filter>Header Files\Modeling\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Modeling\Tools\Edge_Rotate.h">
+      <Filter>Header Files\Modeling\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Modeling\Tools\Edge_Scale.h">
+      <Filter>Header Files\Modeling\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Modeling\Tools\Edge_Select.h">
+      <Filter>Header Files\Modeling\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Modeling\Tools\Edge_Split.h">
+      <Filter>Header Files\Modeling\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Modeling\Tools\Edge_Translate.h">
+      <Filter>Header Files\Modeling\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Modeling\Tools\Face_Select.h">
+      <Filter>Header Files\Modeling\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Modeling\Tools\Fractalize.h">
+      <Filter>Header Files\Modeling\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Modeling\Tools\Fuse_Vertices.h">
+      <Filter>Header Files\Modeling\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Modeling\Tools\Loop_Cut.h">
+      <Filter>Header Files\Modeling\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Modeling\Tools\Model_Rotate.h">
+      <Filter>Header Files\Modeling\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Modeling\Tools\Model_Scale.h">
+      <Filter>Header Files\Modeling\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Modeling\Tools\Model_Translate.h">
+      <Filter>Header Files\Modeling\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Modeling\Tools\Remove_Vertex.h">
+      <Filter>Header Files\Modeling\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Modeling\Tools\RemoveDupicates.h">
+      <Filter>Header Files\Modeling\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Modeling\Tools\Vertex_Rotate.h">
+      <Filter>Header Files\Modeling\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Modeling\Tools\Vertex_Scale.h">
+      <Filter>Header Files\Modeling\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Modeling\Tools\Vertex_Select.h">
+      <Filter>Header Files\Modeling\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Modeling\Tools\Vertex_Translate.h">
+      <Filter>Header Files\Modeling\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Modeling\Tools\WorldTools.h">
+      <Filter>Header Files\Modeling\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Modeling\Edge_Data.h">
+      <Filter>Header Files\Modeling</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Modeling\Face.h">
+      <Filter>Header Files\Modeling</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Modeling\IndexTriangle.h">
+      <Filter>Header Files\Modeling</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Modeling\Mesh.h">
+      <Filter>Header Files\Modeling</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Modeling\Point.h">
+      <Filter>Header Files\Modeling</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Modeling\Ray.h">
+      <Filter>Header Files\Modeling</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Modeling\Sprite.h">
+      <Filter>Header Files\Modeling</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Modeling\Texture.h">
+      <Filter>Header Files\Modeling</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Modeling\Vector.h">
+      <Filter>Header Files\Modeling</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Modeling\Vertex.h">
+      <Filter>Header Files\Modeling</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Modeling\World.h">
+      <Filter>Header Files\Modeling</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UI\Window.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Rendering\Renderer.h">
+      <Filter>Header Files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Rendering\v5RenderState.h">
+      <Filter>Header Files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Rendering\SolidRenderer.h">
+      <Filter>Header Files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Rendering\WireframeRenderer.h">
+      <Filter>Header Files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\IO\SettingsFile.h">
+      <Filter>Header Files\Core\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\IO\KeyBindingMapFile.h">
+      <Filter>Header Files\Core\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Modeling\Tools\Create_Plane.h">
+      <Filter>Header Files\Modeling\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Modeling\v5Math.h">
+      <Filter>Header Files\Modeling</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Rendering\VertexRenderer.h">
+      <Filter>Header Files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Modeling\Tools\VertexSquareCreator.h">
+      <Filter>Header Files\Modeling\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Modeling\Tools\Face_Translate.h">
+      <Filter>Header Files\Modeling\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Modeling\Tools\Face_Scale.h">
+      <Filter>Header Files\Modeling\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UI\SaveLoadWindow.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UI\Button.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UI\TextBox.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Modeling\TriangleFace.h">
+      <Filter>Header Files\Modeling</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Ray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Rendering\shaders.hlsl">
+      <Filter>Header Files\Rendering</Filter>
+    </None>
+  </ItemGroup>
+</Project>

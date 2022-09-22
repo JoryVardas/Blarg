@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{46690881-CCB0-4480-A75B-A8C03D4258DB}</ProjectGuid>
+    <RootNamespace>Blarg</RootNamespace>
+    <SccProjectName>SAK</SccProjectName>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>..\..\Blarg Debuging\</OutDir>
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;C:\Users\Joshua\Documents\PROJECTS\TeamProjects\Blarg\Modeling\Tools;C:\Users\Joshua\Documents\PROJECTS\TeamProjects\Blarg\Core\IO;C:\Users\Joshua\Documents\PROJECTS\TeamProjects\Blarg\Core\Errors;C:\Users\Joshua\Documents\PROJECTS\TeamProjects\Blarg\UI;C:\Users\Joshua\Documents\PROJECTS\TeamProjects\Blarg\Rendering;C:\Users\Joshua\Documents\PROJECTS\TeamProjects\Blarg\Modeling;C:\Users\Joshua\Documents\PROJECTS\TeamProjects\Blarg\Core;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <BrowseInformation>true</BrowseInformation>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Bscmake>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Core\Advanced_Pointer_Operations.h" />
+    <ClInclude Include="..\Core\Array.h" />
+    <ClInclude Include="..\Core\Base_Includes.h" />
+    <ClInclude Include="..\Core\Common_Functions.h" />
+    <ClInclude Include="..\Core\Conversions.h" />
+    <ClInclude Include="..\Core\Coords.h" />
+    <ClInclude Include="..\Core\Errors\ArbitraryFunctionCallError.h" />
+    <ClInclude Include="..\Core\Errors\AttemptToCopyFileStream.h" />
+    <ClInclude Include="..\Core\Errors\AttemptToDivideByZeroError.h" />
+    <ClInclude Include="..\Core\Errors\AttemptToOpenFileStreamUsingDirectory.h" />
+    <ClInclude Include="..\Core\Errors\AttemptToReadFromNonexistantFile.h" />
+    <ClInclude Include="..\Core\Errors\CharacterArrayNotLargeEnoughForFileRead.h" />
+    <ClInclude Include="..\Core\Errors\FailedToRenameMeshError.h" />
+    <ClInclude Include="..\Core\Errors\FileStreamReaderFileNonexistant.h" />
+    <ClInclude Include="..\Core\Errors\IndexOutOfBounds.h" />
+    <ClInclude Include="..\Core\Errors\MemoryAllocationError.h" />
+    <ClInclude Include="..\Core\Errors\MemoryDeallocationError.h" />
+    <ClInclude Include="..\Core\Errors\NullPoinerError.h" />
+    <ClInclude Include="..\Core\Errors\UnknownError.h" />
+    <ClInclude Include="..\Core\Errors\v5Error.h" />
+    <ClInclude Include="..\Core\Global_Variables.h" />
+    <ClInclude Include="..\Core\ID.h" />
+    <ClInclude Include="..\Core\ID_Manager.h" />
+    <ClInclude Include="..\Core\IO\File.h" />
+    <ClInclude Include="..\Core\IO\KeyBindingMapFile.h" />
+    <ClInclude Include="..\Core\IO\SettingsFile.h" />
+    <ClInclude Include="..\Core\IO\StreamReader.h" />
+    <ClInclude Include="..\Core\IO\StreamWriter.h" />
+    <ClInclude Include="..\Core\Reference.h" />
+    <ClInclude Include="..\Core\ReplaceEveryInstanceOf.h" />
+    <ClInclude Include="..\Core\v5CArrayData.h" />
+    <ClInclude Include="..\Core\v5Object.h" />
+    <ClInclude Include="..\Core\v5String.h" />
+    <ClInclude Include="..\Modeling\Edge_Data.h" />
+    <ClInclude Include="..\Modeling\Face.h" />
+    <ClInclude Include="..\Modeling\IndexTriangle.h" />
+    <ClInclude Include="..\Modeling\Tools\Face_Scale.h" />
+    <ClInclude Include="..\Modeling\Tools\Face_Translate.h" />
+    <ClInclude Include="..\Modeling\Tools\VertexSquareCreator.h" />
+    <ClInclude Include="..\Modeling\TriangleFace.h" />
+    <ClInclude Include="..\Modeling\v5Math.h" />
+    <ClInclude Include="..\Modeling\Mesh.h" />
+    <ClInclude Include="..\Modeling\Point.h" />
+    <ClInclude Include="..\Modeling\Ray.h" />
+    <ClInclude Include="..\Modeling\Sprite.h" />
+    <ClInclude Include="..\Modeling\Texture.h" />
+    <ClInclude Include="..\Modeling\Tools\Add_Vertex.h" />
+    <ClInclude Include="..\Modeling\Tools\AverageVertexPosition.h" />
+    <ClInclude Include="..\Modeling\Tools\Create_Cone.h" />
+    <ClInclude Include="..\Modeling\Tools\Create_Cube.h" />
+    <ClInclude Include="..\Modeling\Tools\Create_Plane.h" />
+    <ClInclude Include="..\Modeling\Tools\Create_Sphere.h" />
+    <ClInclude Include="..\Modeling\Tools\Create_Torus.h" />
+    <ClInclude Include="..\Modeling\Tools\Edge_Rotate.h" />
+    <ClInclude Include="..\Modeling\Tools\Edge_Scale.h" />
+    <ClInclude Include="..\Modeling\Tools\Edge_Select.h" />
+    <ClInclude Include="..\Modeling\Tools\Edge_Split.h" />
+    <ClInclude Include="..\Modeling\Tools\Edge_Translate.h" />
+    <ClInclude Include="..\Modeling\Tools\Face_Select.h" />
+    <ClInclude Include="..\Modeling\Tools\Fractalize.h" />
+    <ClInclude Include="..\Modeling\Tools\Fuse_Vertices.h" />
+    <ClInclude Include="..\Modeling\Tools\Loop_Cut.h" />
+    <ClInclude Include="..\Modeling\Tools\Model_Rotate.h" />
+    <ClInclude Include="..\Modeling\Tools\Model_Scale.h" />
+    <ClInclude Include="..\Modeling\Tools\Model_Translate.h" />
+    <ClInclude Include="..\Modeling\Tools\RemoveDupicates.h" />
+    <ClInclude Include="..\Modeling\Tools\Remove_Vertex.h" />
+    <ClInclude Include="..\Modeling\Tools\Vertex_Rotate.h" />
+    <ClInclude Include="..\Modeling\Tools\Vertex_Scale.h" />
+    <ClInclude Include="..\Modeling\Tools\Vertex_Select.h" />
+    <ClInclude Include="..\Modeling\Tools\Vertex_Translate.h" />
+    <ClInclude Include="..\Modeling\Tools\WorldTools.h" />
+    <ClInclude Include="..\Modeling\Vector.h" />
+    <ClInclude Include="..\Modeling\Vertex.h" />
+    <ClInclude Include="..\Modeling\World.h" />
+    <ClInclude Include="..\Rendering\Renderer.h" />
+    <ClInclude Include="..\Rendering\SolidRenderer.h" />
+    <ClInclude Include="..\Rendering\v5RenderState.h" />
+    <ClInclude Include="..\Rendering\VertexRenderer.h" />
+    <ClInclude Include="..\Rendering\WireframeRenderer.h" />
+    <ClInclude Include="..\UI\Button.h" />
+    <ClInclude Include="..\UI\SaveLoadWindow.h" />
+    <ClInclude Include="..\UI\TextBox.h" />
+    <ClInclude Include="..\UI\Window.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Rendering\shaders.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Vertex</ShaderType>
+      <FileType>Document</FileType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Ray.cpp" />
+    <ClCompile Include="Texture.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
