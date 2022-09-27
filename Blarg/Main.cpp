@@ -56,7 +56,7 @@
 	Array<SelectionData> _SelectedData;
 
 	World _World;
-	v5String _WorldFolder = "C:\\Users\\Joshua\\Documents\\PROJECTS\\TeamProjects\\Worlds\\";
+	v5String _WorldFolder = "Worlds\\";
 	bool _Saving = false;
 	bool _Loading = false;
 	Window* _SaveLoadWindowPtr = null;

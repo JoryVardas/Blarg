@@ -44,7 +44,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <OutDir>..\..\Blarg Debuging\</OutDir>
-    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;C:\Users\Joshua\Documents\PROJECTS\TeamProjects\Blarg\Modeling\Tools;C:\Users\Joshua\Documents\PROJECTS\TeamProjects\Blarg\Core\IO;C:\Users\Joshua\Documents\PROJECTS\TeamProjects\Blarg\Core\Errors;C:\Users\Joshua\Documents\PROJECTS\TeamProjects\Blarg\UI;C:\Users\Joshua\Documents\PROJECTS\TeamProjects\Blarg\Rendering;C:\Users\Joshua\Documents\PROJECTS\TeamProjects\Blarg\Modeling;C:\Users\Joshua\Documents\PROJECTS\TeamProjects\Blarg\Core;$(IncludePath)</IncludePath>
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(ProjectDir)\..\Modeling\Tools;$(ProjectDir)\..\Core\IO;$(ProjectDir)\..\Core\Errors;$(ProjectDir)\..\UI;$(ProjectDir)\..\Rendering;$(ProjectDir)\..\Modeling;$(ProjectDir)\..\Core;$(IncludePath)</IncludePath>
     <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
